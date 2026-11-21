@@ -1,6 +1,7 @@
 
 `default_nettype none
 
+
 module tt_um_bcd_7seg (
     input  wire [7:0] ui_in,    // Entradas dedicadas: ui_in[3:0] = BCD
     output wire [7:0] uo_out,   // Salidas dedicadas: uo_out[6:0] = {g,f,e,d,c,b,a}
