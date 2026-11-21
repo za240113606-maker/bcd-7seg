@@ -7,20 +7,15 @@ You can also include images in this folder and reference them in the markdown. E
 512 kb in size, and the combined size of all images must be less than 1 MB.
 -->
 
+
 ## How it works
 
-Explain how your project works
-  
- - bcd 7 seg
+Combinational BCD-to-7-segment decoder taking a 4-bit binary-coded decimal input on `ui_in[3:0]` and driving the 7-segment display outputs on `uo_out[6:0]`. Values `0` through `9` map to their corresponding 7-segment patterns, while `10` through `15` turn the segments off.
 
 ## How to test
 
-Explain how to use your project
-
-  -test it ussing a circuit
+Apply a 4-bit BCD value (`0000` to `1001`) on `ui_in[3:0]` and verify the active segments on `uo_out[6:0]` match the expected decimal digit on the 7-segment display.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
-
-  -place 7 seg display
+Optional 7-segment display connected to `uo_out[6:0]`.
