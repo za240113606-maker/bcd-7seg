@@ -1,17 +1,16 @@
 yaml_version: 6
 
 project:
-  title:        "BCD 7-Segment Test"
-  author:       "Armando Juarez"
-  discord:      ""
-  description:  "Test BCD to 7-segment decoder in Verilog"
-  language:     "Verilog"
-  clock_hz:     0
-  tiles:        "1x1"
-  top_module:   "tt_um_bcd_7seg"
+  title: "BCD 7-Segment Test"
+  author: "Armando Juarez"
+  discord: ""
+  description: "Test BCD to 7-segment decoder in Verilog"
+  language: "Verilog"
+  clock_hz: 0
+  tiles: "1x1"
+  top_module: "tt_um_bcd_7seg"
   source_files:
-  - "src/project.v"
-
+    - "src/project.v"
 
 pinout:
   ui[0]: "bcd[0]"
